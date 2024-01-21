@@ -104,7 +104,7 @@ while cap.isOpened():
     frame = cv2.resize(frame, (desired_width, desired_height))
 
     # Display the resulting frame
-    cv2.imshow('Finger Tracker', frame)
+    cv2.imshow('AIR CANVAS', frame)
 
     key = cv2.waitKey(1) & 0xFF
     if key == 27:  # Press 'Esc' to exit
